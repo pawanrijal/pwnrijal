@@ -1,4 +1,4 @@
-#1.
+#1.write a function called is_sorted takes a list as parameter and print the list is sorted or not.
 def is_sorted(list1):
     list2=list1[:]
     list2.sort()
@@ -13,7 +13,7 @@ is_sorted(l)
 
 
 
-#2.
+#2.write a function called is_anagram which accept two parameter and print whether it is anagram or not.
 def is_anagram(word1,word2):
     if(sorted(word1)==sorted(word2)):
         print('Anagram')
@@ -28,7 +28,7 @@ is_anagram(str1,str2)
 
 
 
-#3.
+#3.write a function called remove_duplicates which accepts a list and return new list with only unique elements.
 def remove_duplicates(list1):
     final_list=[]
     for num in list1:
@@ -43,7 +43,7 @@ print('new list:',new_list)
 
 
 
-
+wap to test the number is prime or not
 #4
 num=int(input('Enter a number'))
 if num>1:
@@ -59,7 +59,7 @@ else:
 
 
 
-
+write a program to check a string is palindrome or not
 #5.
 def reverse(s):
     return s[::-1]
@@ -72,7 +72,7 @@ else:
 
 
 
-
+write a program to generate a alist of elements only squares between two numbers.
 
 #6
 l=list()
@@ -83,7 +83,7 @@ print('The square list is:',l)
 
 
 
-
+wap to check a number is divisible by another number.
 #7
 def div(a,b):
     if a%b==0:
@@ -98,7 +98,7 @@ div(p,q)
 
 
 
-
+wap to check whether a variable is string or not
 #8
 var=input('Enter string or int')
 if(var.isdigit()):
@@ -110,8 +110,8 @@ else:
 
 
 
+wap to find the indices of all occurence of given item in a list.
 #9
-
 listOfElems = ['Hello', 'Ok', 'is', 'Ok', 'test', 'this', 'is', 'a', 'test', 'Ok']
 def getIndexPositions(listOfElements, element):
     ''' Returns the indexes of all occurrences of give element in
